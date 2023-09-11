@@ -1,15 +1,16 @@
 package com.sportapp.viewmodels
 
-import android.media.RouteListingPreference
 import androidx.lifecycle.ViewModel
 import com.sportapp.data.MyRepository
 import com.sportapp.data.Player
-import kotlinx.coroutines.flow.Flow
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import javax.inject.Inject
 
-class MyViewModel(private val repository: MyRepository) : ViewModel() {
+@HiltViewModel
+class MyViewModel @Inject constructor(private val repository: MyRepository) : ViewModel() {
     private val _dataFlow = MutableStateFlow<List<Player>>(emptyList())
     val dataFlow: StateFlow<List<Player>> = _dataFlow.asStateFlow()
 
@@ -23,3 +24,6 @@ class MyViewModel(private val repository: MyRepository) : ViewModel() {
         _dataFlow.value = players
     }
 }
+
+
+

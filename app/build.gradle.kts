@@ -3,8 +3,8 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.kotlinAndroid)
 
-//    id("com.google.dagger.hilt.android")
-//    kotlin("kapt")
+    id("com.google.dagger.hilt.android")
+    kotlin("kapt")
 }
 
 android {
@@ -58,16 +58,17 @@ android {
 
 }
 // Allow references to generated code
-//kapt {
-//    correctErrorTypes = true
-//}
+kapt {
+    correctErrorTypes = true
+}
 
 dependencies {
     implementation(libs.androidx.tv.material)
     //Dagger Hilt
-//    implementation(libs.hilt.android)
-//    kapt(libs.hilt.android.compiler)
-//    implementation(libs.hilt.navigation.compose)
+    implementation(libs.hilt.android)
+    kapt(libs.hilt.android.compiler)
+    implementation(libs.hilt.navigation.compose)
+    implementation(libs.androidx.hilt.navigation.fragment)
 
 
 
@@ -81,9 +82,9 @@ dependencies {
     implementation ("androidx.navigation:navigation-compose:2.7.2")
 
 
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha07")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
 
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
 
     implementation(libs.core.ktx)
     implementation(libs.lifecycle.runtime.ktx)
