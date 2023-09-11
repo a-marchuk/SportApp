@@ -63,6 +63,7 @@ android {
 //}
 
 dependencies {
+    implementation(libs.androidx.tv.material)
     //Dagger Hilt
 //    implementation(libs.hilt.android)
 //    kapt(libs.hilt.android.compiler)
