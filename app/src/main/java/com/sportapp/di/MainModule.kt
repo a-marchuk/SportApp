@@ -1,4 +1,4 @@
-package com.sportapp.hilt
+package com.sportapp.di
 
 import com.sportapp.data.MyRepository
 import dagger.Module

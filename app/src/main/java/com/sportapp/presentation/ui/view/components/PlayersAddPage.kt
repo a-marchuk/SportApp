@@ -1,4 +1,4 @@
-package com.sportapp.view.components
+package com.sportapp.presentation.ui.view.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -16,8 +16,8 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.sportapp.data.Player
-import com.sportapp.navigation.MainDestinations
-import com.sportapp.viewmodels.MyViewModel
+import com.sportapp.presentation.navigation.MainDestinations
+import com.sportapp.presentation.ui.viewmodels.MyViewModel
 
 
 @Composable

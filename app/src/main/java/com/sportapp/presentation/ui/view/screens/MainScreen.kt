@@ -1,11 +1,11 @@
-package com.sportapp.view.screens
+package com.sportapp.presentation.ui.view.screens
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.navigation.NavController
-import com.sportapp.navigation.MainDestinations
-import com.sportapp.viewmodels.MyViewModel
+import com.sportapp.presentation.navigation.MainDestinations
+import com.sportapp.presentation.ui.viewmodels.MyViewModel
 
 
 @Composable

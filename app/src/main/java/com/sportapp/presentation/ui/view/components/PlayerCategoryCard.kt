@@ -1,4 +1,4 @@
-package com.sportapp.view.components
+package com.sportapp.presentation.ui.view.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth

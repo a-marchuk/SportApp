@@ -1,12 +1,12 @@
-package com.sportapp
+package com.sportapp.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.sportapp.navigation.NavGraph
-import com.sportapp.ui.theme.SportAppTheme
-import com.sportapp.viewmodels.MyViewModel
+import com.sportapp.presentation.navigation.NavGraph
+import com.sportapp.presentation.ui.theme.SportAppTheme
+import com.sportapp.presentation.ui.viewmodels.MyViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

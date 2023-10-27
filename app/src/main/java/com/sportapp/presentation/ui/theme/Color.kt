@@ -1,4 +1,4 @@
-package com.sportapp.ui.theme
+package com.sportapp.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

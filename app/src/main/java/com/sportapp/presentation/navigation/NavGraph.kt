@@ -1,14 +1,14 @@
-package com.sportapp.navigation
+package com.sportapp.presentation.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.sportapp.view.components.AddPlayerIconLarge
-import com.sportapp.view.components.PlayerList
-import com.sportapp.view.components.PlayersAddPage
-import com.sportapp.view.screens.MainScreen
-import com.sportapp.viewmodels.MyViewModel
+import com.sportapp.presentation.ui.view.components.AddPlayerIconLarge
+import com.sportapp.presentation.ui.view.components.PlayerList
+import com.sportapp.presentation.ui.view.components.PlayersAddPage
+import com.sportapp.presentation.ui.view.screens.MainScreen
+import com.sportapp.presentation.ui.viewmodels.MyViewModel
 
 
 @Composable

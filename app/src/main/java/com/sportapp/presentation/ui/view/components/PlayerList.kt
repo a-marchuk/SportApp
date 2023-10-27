@@ -1,4 +1,4 @@
-package com.sportapp.view.components
+package com.sportapp.presentation.ui.view.components
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -15,7 +15,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.sportapp.data.Player
-import com.sportapp.viewmodels.MyViewModel
+import com.sportapp.presentation.ui.viewmodels.MyViewModel
 
 @Composable
 fun PlayerList(navController: NavController, viewModel: MyViewModel) {

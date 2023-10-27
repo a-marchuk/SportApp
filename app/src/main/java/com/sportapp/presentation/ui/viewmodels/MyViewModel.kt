@@ -1,4 +1,4 @@
-package com.sportapp.viewmodels
+package com.sportapp.presentation.ui.viewmodels
 
 import androidx.lifecycle.ViewModel
 import com.sportapp.data.MyRepository

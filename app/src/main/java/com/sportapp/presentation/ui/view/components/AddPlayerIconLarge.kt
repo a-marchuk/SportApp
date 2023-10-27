@@ -1,4 +1,4 @@
-package com.sportapp.view.components
+package com.sportapp.presentation.ui.view.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -17,7 +17,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.sportapp.navigation.MainDestinations
+import com.sportapp.presentation.navigation.MainDestinations
 
 
 @Composable
